@@ -1,0 +1,21 @@
+.container-fluid
+{
+    padding-left:0px;
+    padding-right: 0px;
+}
+
+
+.carousel-item img{
+    opacity: 0.5;
+ 
+
+}
+.carousel-item {
+    background-color:black;
+
+}
+
+.btn-outline-dark:hover {
+    color: #fff;
+
+}

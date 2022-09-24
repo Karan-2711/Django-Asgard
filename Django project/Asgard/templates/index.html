@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+
+{% block title %}{% endblock title %}
+
+{% block body %}
+<div class="container-fluid ">
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" >
+        <div class="carousel-item active "  >
+                <img src="/static/image 1.jpeg" class="d-block w-100" alt="..." >
+        <div class="carousel-caption d-none d-md-block"  >
+            <h1 class="d-inline">A Website About Asgard</h1>
+        </div>
+        </div>
+        <div class="carousel-item" >
+              <img src="/static/image 2.jpeg" class="d-block w-100" alt="...">
+
+        <div class="carousel-caption d-none d-md-block ">
+            <h1 class="d-inline">A Website About Asgard</h1>
+          
+        </div>
+        </div>
+        <div class="carousel-item" >
+        <img src="/static/image 3.jpeg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block" >
+            <h1 class="d-inline">A Website About Asgard</h1>
+           
+        </div>
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+    </div>
+</div>
+
+
+<div class="container mt-40" >
+
+<h2 class="my-4  text-center ">Click on below options to know more </h2>
+<div class="d-flex justify-content-around ">
+<button type="button" class="btn btn-lg btn-outline-dark "  data-bs-toggle="popover" data-bs-trigger="focus" data-bs-placement="bottom" data-bs-content="History of Asgard goes back a millenia.">History</button>
+<button type="button"class="btn btn-lg btn-outline-dark"  data-bs-toggle="popover" data-bs-trigger="focus" data-bs-placement="Bottom" data-bs-content="The Geography of Asgard is dominated by huge mountains.">Geography</button>
+<button type="button" class="btn btn-lg btn-outline-dark"  data-bs-toggle="popover" data-bs-trigger="focus" data-bs-placement="Bottom" data-bs-content="Culturally Asgard remains a mystery to the passer by">Culture</button>
+<button type="button" class="btn btn-lg btn-outline-dark" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-placement="Bottom" data-bs-content="Language barriers in Asgard do not allow outsiders to live.">Language</button>
+</div>
+</div>
+{% endblock body %}
